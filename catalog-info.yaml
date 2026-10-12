@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: shopwave-service
+  description: A ShopWave service created from the golden-path template
+  annotations:
+    github.com/project-slug: shopwave/shopwave-service
+spec:
+  type: service
+  lifecycle: production
+  owner: team-payments
+  system: shopwave
