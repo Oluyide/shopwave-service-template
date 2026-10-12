@@ -1,0 +1,12 @@
+{
+  "name": "shopwave-service",
+  "version": "1.0.0",
+  "description": "ShopWave service created from the golden-path template",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
