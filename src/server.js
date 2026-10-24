@@ -2,7 +2,7 @@ const http = require('node:http');
 
 const SERVICE = process.env.SERVICE_NAME || 'shopwave-service';
 const PORT = Number(process.env.PORT) || 8080;
-const brown = "Ade";
+const brown = "brown";
 
 function handler(req, res) {
   if (req.url === '/health') {
