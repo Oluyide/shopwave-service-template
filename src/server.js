@@ -2,7 +2,8 @@ const http = require('node:http');
 
 const SERVICE = process.env.SERVICE_NAME || 'shopwave-service';
 const PORT = Number(process.env.PORT) || 8080;
-const brown = "brown";
+const brown = "Adeolu";
+const adeolu = "Brown";
 
 function handler(req, res) {
   if (req.url === '/health') {
@@ -18,4 +19,5 @@ if (require.main === module) {
   server.listen(PORT, () => console.log(`${SERVICE} listening on port ${PORT}`));
 }
 print(brown);
+print(adeolu);
 module.exports = { handler, server };
